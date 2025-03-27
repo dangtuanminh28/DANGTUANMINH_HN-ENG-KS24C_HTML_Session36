@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease-in-out;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.button-container {
+    margin: 20px 0;
+}
+
+.color-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.color-btn:hover {
+    transform: scale(1.1);
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: gold;
+    color: black;
+}
+
+.purple {
+    background-color: purple;
+}

@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+h2 {
+    color: #333;
+}
+
+.food-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.food-item {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 400px;
+    background: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.food-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.food-info {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.food-info h3 {
+    margin: 5px 0;
+}
+
+.like-button {
+    padding: 8px 12px;
+    border: none;
+    background: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.like-button:hover {
+    background: #218838;
+}

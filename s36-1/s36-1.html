@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <div id="nameForm" class="container">
+        <h3>Nhập tên của bạn</h3>
+        <input type="text" id="nameInput" placeholder="Nhập tên...">
+        <button onclick="saveName()">Lưu</button>
+    </div>
+
+    <div id="greeting" class="container" style="display: none;">
+        <h2> &#128075; Chào bạn, <span id="userName"></span>!</h2>
+        <button onclick="resetName()">Đổi tên</button>
+    </div>
+
+    <script src="./main1.js"></script>
+
+</body>
+
+</html>
