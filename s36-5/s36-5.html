@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+
+<body>
+    <h2><img src="https://twemoji.maxcdn.com/v/latest/72x72/1f5c2.png" width="50 Quản lý công việc (Task Board)</h2>
+
+    <div class="task-input">
+        <input type="text" id="taskName" placeholder="Nhập tên công việc..." />
+        <button id="addTaskButton">Thêm</button>
+    </div>
+
+    <div class="board">
+        <div class="column" id="pendingCol">
+            <h3>&#128336; Chờ xử lý</h3>
+            <div id="pendingTasks">
+            </div>
+        </div>
+        <div class="column" id="inProgressCol">
+            <h3>&#128296; Đang làm</h3>
+            <div id="inProgressTasks"></div>
+        </div>
+        <div class="column" id="doneCol">
+            <h3>&#9989; Hoàn thành</h3>
+            <div id="doneTasks">
+            </div>
+        </div>
+    </div>
+
+    <script src="./main5.js"></script>
+</body>
+
+</html>
